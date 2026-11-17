@@ -1,0 +1,137 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{% block title %}Dashboard - MealMate{% endblock %}
+
+{% block content %}
+<section class="dashboard">
+  <div class="dash-head">
+    <div>
+      <h1>Hi <span id="dash-username">...</span>, <span id="dash-question">what&rsquo;s for lunch?</span></h1>
+      <p class="muted">Pick a time of day and let the engine choose for you.</p>
+    </div>
+    <div class="time-picker" id="time-picker" role="tablist" aria-label="Meal time">
+      <button class="chip" data-time="breakfast">🌅 Breakfast</button>
+      <button class="chip is-active" data-time="lunch">☀️ Lunch</button>
+      <button class="chip" data-time="dinner">🌙 Dinner</button>
+    </div>
+  </div>
+
+  <div class="dash-grid">
+    <!-- recommendation -->
+    <section class="card" id="recommend-card">
+      <div class="card-head">
+        <h2>Recommendation</h2>
+        <button class="btn" id="recommend-btn">Get recommendation</button>
+      </div>
+
+      <p class="form-error" id="recommend-error" hidden></p>
+
+      <div id="recommend-loading" class="muted" hidden>Thinking of something tasty&hellip;</div>
+
+      <div id="recommend-result" hidden>
+        <p class="method-note" id="method-note"></p>
+        <div id="dishes" class="dishes"></div>
+
+        <div class="rating-box">
+          <p>How good was this pick?</p>
+          <div class="stars" id="rating-stars" role="radiogroup" aria-label="Rating">
+            <button class="star" data-rating="1" aria-label="1 star">★</button>
+            <button class="star" data-rating="2" aria-label="2 stars">★</button>
+            <button class="star" data-rating="3" aria-label="3 stars">★</button>
+            <button class="star" data-rating="4" aria-label="4 stars">★</button>
+            <button class="star" data-rating="5" aria-label="5 stars">★</button>
+          </div>
+          <p class="muted" id="rating-feedback" hidden></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- macro targets -->
+    <aside class="card" id="macro-card">
+      <h2>Your daily targets</h2>
+      <p class="muted">Calculated from your profile (Harris-Benedict).</p>
+      <div id="macro-values" class="macro-values">
+        <div><span>Energy</span><strong id="macro-energy">-</strong></div>
+        <div><span>Carbohydrates</span><strong id="macro-carbs">-</strong></div>
+        <div><span>Fats</span><strong id="macro-fats">-</strong></div>
+        <div><span>Protein</span><strong id="macro-protein">-</strong></div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="dash-grid">
+    <!-- history -->
+    <section class="card">
+      <h2>Your history</h2>
+      <div class="table-wrap">
+        <table id="history-table">
+          <thead>
+            <tr><th>Date</th><th>Time</th><th>Meal</th><th>Rating</th></tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <p class="muted" id="history-empty" hidden>No meals rated yet.</p>
+    </section>
+
+    <!-- profile -->
+    <section class="card">
+      <h2>Profile</h2>
+      <form id="profile-form" class="form-grid">
+        <div><label for="p-age">Age</label><input id="p-age" name="age" type="number"></div>
+        <div>
+          <label for="p-sex">Sex</label>
+          <select id="p-sex" name="sex">
+            <option value="M">Male</option>
+            <option value="F">Female</option>
+          </select>
+        </div>
+        <div><label for="p-height">Height (cm)</label><input id="p-height" name="height" type="number" step="0.1"></div>
+        <div><label for="p-weight">Weight (kg)</label><input id="p-weight" name="weight" type="number" step="0.1"></div>
+        <div>
+          <label for="p-lifestyle">Activity</label>
+          <select id="p-lifestyle" name="lifestyle">
+            <option value="sedentary">Sedentary</option>
+            <option value="lightlyactive">Lightly active</option>
+            <option value="moderateactive">Moderately active</option>
+            <option value="veryactive">Very active</option>
+            <option value="extraactive">Extra active</option>
+          </select>
+        </div>
+        <div>
+          <label for="p-diet">Diet</label>
+          <select id="p-diet" name="diet">
+            <option value="vegetarian">Vegetarian</option>
+            <option value="non-vegetarian">Non-vegetarian</option>
+          </select>
+        </div>
+        <div class="form-span">
+          <label for="p-tags">Taste tags</label>
+          <input id="p-tags" name="tags" type="text">
+        </div>
+        <div class="form-span">
+          <label for="p-disease">Conditions</label>
+          <input id="p-disease" name="disease" type="text">
+        </div>
+        <div class="form-span">
+          <label for="p-allergy">Allergies</label>
+          <input id="p-allergy" name="allergy" type="text">
+        </div>
+
+        <p class="form-error" id="profile-error" hidden></p>
+        <p class="form-success" id="profile-success" hidden></p>
+
+        <div class="form-span row-actions">
+          <button class="btn" type="submit">Save changes</button>
+          <button class="btn btn-danger" type="button" id="delete-account">Delete account</button>
+        </div>
+      </form>
+    </section>
+  </div>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script src="{% static 'core/js/dashboard.js' %}"></script>
+{% endblock %}

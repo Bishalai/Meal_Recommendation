@@ -1,0 +1,53 @@
+{% extends "core/base.html" %}
+
+{% block content %}
+<section class="hero">
+  <div class="hero-text">
+    <h1>What should I eat today?</h1>
+    <p>
+      MealMate looks at your taste tags, your diet, your allergies and the time
+      of day, then suggests a dish &mdash; with a matching side &mdash; and the
+      macros you still need today.
+    </p>
+    <div class="hero-actions">
+      <a class="btn" href="{% url 'signup-page' %}">Create free account</a>
+      <a class="btn btn-ghost" href="{% url 'signin-page' %}">I already have one</a>
+    </div>
+  </div>
+  <div class="hero-card">
+    <h2>Today&rsquo;s pick</h2>
+    <p class="dish-name">Dal Bhat + Aloo Tadka</p>
+    <p class="muted">Balanced staple and curry, matched to a vegetarian,
+      Nepali-food lover.</p>
+    <ul class="macro-list">
+      <li><span>Energy</span><strong>640 kcal</strong></li>
+      <li><span>Carbs</span><strong>92 g</strong></li>
+      <li><span>Fats</span><strong>18 g</strong></li>
+      <li><span>Protein</span><strong>24 g</strong></li>
+    </ul>
+  </div>
+</section>
+
+<section class="features">
+  <article>
+    <h3>🧠 Personalised</h3>
+    <p>Content-based filtering compares every dish in the catalogue with your
+       preference tags.</p>
+  </article>
+  <article>
+    <h3>🛡 Safe</h3>
+    <p>Dishes containing an allergen or an ingredient bad for your condition
+       are removed before you ever see them.</p>
+  </article>
+  <article>
+    <h3>⚖ Macro aware</h3>
+    <p>Every recommendation comes with your daily calorie, carb, fat and
+       protein targets.</p>
+  </article>
+  <article>
+    <h3>🔄 Learns from you</h3>
+    <p>Rate a meal and it is stored in your history; the five most recent
+       picks are not repeated.</p>
+  </article>
+</section>
+{% endblock %}

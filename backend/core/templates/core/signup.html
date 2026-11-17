@@ -1,0 +1,132 @@
+{% extends "core/base.html" %}
+
+{% block title %}Sign up - MealMate{% endblock %}
+
+{% block content %}
+<section class="auth-layout">
+  <form class="card auth-card auth-card-wide" id="signup-form" novalidate>
+    <h1>Create your account</h1>
+    <p class="muted">These details power the recommendation engine and your
+      macro targets. They never leave your account.</p>
+
+    <div class="form-grid">
+      <div>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email">
+      </div>
+      <div>
+        <label for="password1">Password</label>
+        <input id="password1" name="password1" type="password" autocomplete="new-password" required>
+      </div>
+      <div>
+        <label for="password2">Repeat password</label>
+        <input id="password2" name="password2" type="password" autocomplete="new-password" required>
+      </div>
+      <div>
+        <label for="age">Age</label>
+        <input id="age" name="age" type="number" min="1" max="120" required>
+      </div>
+      <div>
+        <label for="sex">Sex</label>
+        <select id="sex" name="sex" required>
+          <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+      </div>
+      <div>
+        <label for="height">Height (cm)</label>
+        <input id="height" name="height" type="number" step="0.1" min="50" required>
+      </div>
+      <div>
+        <label for="weight">Weight (kg)</label>
+        <input id="weight" name="weight" type="number" step="0.1" min="10" required>
+      </div>
+      <div>
+        <label for="lifestyle">Activity level</label>
+        <select id="lifestyle" name="lifestyle" required>
+          <option value="sedentary">Sedentary (little exercise)</option>
+          <option value="lightlyactive" selected>Lightly active (1-3 days/week)</option>
+          <option value="moderateactive">Moderately active (3-5 days/week)</option>
+          <option value="veryactive">Very active (6-7 days/week)</option>
+          <option value="extraactive">Extra active (physical job)</option>
+        </select>
+      </div>
+      <div>
+        <label for="diet">Diet</label>
+        <select id="diet" name="diet" required>
+          <option value="vegetarian">Vegetarian</option>
+          <option value="non-vegetarian">Non-vegetarian</option>
+        </select>
+      </div>
+      <div class="form-span">
+        <label for="tags">Taste tags</label>
+        <input id="tags" name="tags" type="text"
+               placeholder="e.g. nepali, spicy, potato, momo" required>
+        <small>Comma separated words describing the food you love.</small>
+      </div>
+      <div class="form-span">
+        <label for="disease">Medical conditions</label>
+        <input id="disease" name="disease" type="text" placeholder="e.g. diabetes (leave empty if none)">
+        <small>Comma separated; ingredients that conflict with them are filtered out.</small>
+      </div>
+      <div class="form-span">
+        <label for="allergy">Allergies</label>
+        <input id="allergy" name="allergy" type="text" placeholder="e.g. peanut, tofu (leave empty if none)">
+        <small>Comma separated ingredients you must avoid.</small>
+      </div>
+    </div>
+
+    <p class="form-error" id="signup-error" hidden></p>
+
+    <button class="btn btn-block" type="submit">Create account</button>
+
+    <p class="muted">Already registered?
+      <a href="{% url 'signin-page' %}">Sign in</a>
+    </p>
+  </form>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.getElementById('signup-form').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const errorBox = document.getElementById('signup-error');
+    errorBox.hidden = true;
+
+    const form = new FormData(event.target);
+    const payload = Object.fromEntries(form.entries());
+
+    const result = await MealMate.api('/api/signup', {
+      method: 'POST',
+      body: payload,
+      auth: false,
+    });
+
+    if (result.error) {
+      errorBox.textContent = result.error;
+      errorBox.hidden = false;
+      return;
+    }
+
+    // account created: sign in straight away
+    const session = await MealMate.api('/api/signin', {
+      method: 'POST',
+      body: { username: payload.username, password: payload.password1 },
+      auth: false,
+    });
+
+    if (session.error) {
+      window.location.href = '{% url 'signin-page' %}';
+      return;
+    }
+
+    MealMate.saveSession(session);
+    window.location.href = '{% url 'dashboard' %}';
+  });
+</script>
+{% endblock %}

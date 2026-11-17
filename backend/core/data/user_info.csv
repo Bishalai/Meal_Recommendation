@@ -1,0 +1,48 @@
+username,name,age,weight,height,sex,lifestyle,tags,diet,disease,allergy
+aadarsh,aadarsh,22,80.0,175.0,M,moderateactive,"nepali,spicy,chilli,oil,potato,samosa,meat",non-vegetarian,,chicken
+kaushal,kaushal,22,62.0,172.0,M,veryactive,"nepali,oil,potato,rice,flour,chowmein",non-vegetarian,,lentils
+shantanu,shantanu,69,54.0,162.0,M,sedentary,"nepali,thukpa,garlic,lentils,brinjal",vegetarian,"Diabetes,Arthritis,Cough",almonds
+mike,mike,22,65.0,169.0,M,lightlyactive,"nepali,oily,spicy,milk,thukpa",non-vegetarian,,peanut
+samira,samira,22,75.0,179.0,F,lightlyactive,"nepali,oily,spicy,milk,thukpa",non-vegetarian,,peanut
+daren,daren,52,70.0,176.0,M,lightlyactive,"nepali,lentils,milk,thukpa,sugar",vegetarian,,
+bishal,bishal,24,65.0,165.0,M,lightlyactive,"nepali, spicy",vegetarian,,
+demo_sarmila01,demo_sarmila01,19,64.5,171.7,M,sedentary,"carrot, spicy, butter, tomato",non-vegetarian,,
+demo_sangita02,demo_sangita02,26,71.7,168.9,M,lightlyactive,"cauliflower, chilli, wheatnoodles",non-vegetarian,,crab
+demo_puspa03,demo_puspa03,45,70.6,148.1,F,moderateactive,"yomari, cardamom, brownie",non-vegetarian,,
+demo_aadarsh04,demo_aadarsh04,57,58.2,172.6,F,lightlyactive,"spring, legumes, carrot",vegetarian,,
+demo_sujata05,demo_sujata05,55,70.2,177.3,M,lightlyactive,"tomatoes, peaflour, milletflour",vegetarian,,
+demo_mangala06,demo_mangala06,33,72.2,166.4,F,lightlyactive,"paneer, fenugreekleaves, cilantro",non-vegetarian,,crab
+demo_pradip07,demo_pradip07,34,50.3,164.0,F,sedentary,"mint, fish, buff",non-vegetarian,,crab
+demo_mangala08,demo_mangala08,48,62.8,167.1,M,lightlyactive,"cabbage, kwati, fenugreekleaves",non-vegetarian,,
+demo_sunita09,demo_sunita09,21,79.4,175.0,M,lightlyactive,"peas, chapati, pulao, lentil, oily",non-vegetarian,,tofu
+demo_gopal10,demo_gopal10,33,61.5,156.2,F,veryactive,"tumeric, sauce, chicken, buff",non-vegetarian,,egg
+demo_aadarsh11,demo_aadarsh11,22,75.3,166.0,M,veryactive,"yeast, paneer, goat, pizza, lentil",non-vegetarian,,peanut
+demo_dinesh12,demo_dinesh12,41,45.5,154.5,F,sedentary,"tofu, chilli, pakoda, cardamom, rolls, vegetarian",non-vegetarian,,
+demo_sujata13,demo_sujata13,27,49.5,156.9,F,lightlyactive,"burger, cabbage, pea",non-vegetarian,diabetes,crab
+demo_prakash14,demo_prakash14,31,43.1,161.3,F,lightlyactive,"masala, chana, almonds, saag, pea",non-vegetarian,,peanut
+demo_ranjan15,demo_ranjan15,41,77.8,168.0,M,lightlyactive,"milk, tumeric, breakfast, wholewheatflour, yomari, meat",non-vegetarian,diabetes,
+demo_puspa16,demo_puspa16,32,53.0,177.9,M,lightlyactive,"pakoda, breakfast, nuts",non-vegetarian,,
+demo_aadarsh17,demo_aadarsh17,34,63.3,169.8,F,veryactive,"momo, blackgram, mayonnaise, heavy, chapati",vegetarian,,peanut
+demo_ranjan18,demo_ranjan18,46,71.7,184.8,M,sedentary,"milletflour, buckwheatflour, spinach, spices, kodo",vegetarian,,egg
+demo_gopal19,demo_gopal19,49,63.9,178.7,M,sedentary,"riceflour, ghee, oily, legumes, pizza",non-vegetarian,diabetes,
+demo_nisha20,demo_nisha20,44,63.0,161.2,M,extraactive,"tomatoes, radishleaves, gundruk",non-vegetarian,,egg
+demo_dipak21,demo_dipak21,53,71.2,176.1,M,moderateactive,"rice, dal, kidneybeans, maizeflour, yomari, brownie",non-vegetarian,,
+demo_rinki22,demo_rinki22,51,77.1,161.7,M,sedentary,"suji, cauliflower, brownie",non-vegetarian,,tofu
+demo_ranjan23,demo_ranjan23,52,91.5,174.9,M,lightlyactive,"chickpeas, salt, kodo",non-vegetarian,,crab
+demo_sabina24,demo_sabina24,30,80.6,168.7,M,extraactive,"saag, spinach, milk, grain",vegetarian,,peanut
+demo_pradip25,demo_pradip25,22,64.6,169.7,M,sedentary,"cilantro, light, bara",vegetarian,,tofu
+demo_dinesh26,demo_dinesh26,26,79.9,171.3,M,moderateactive,"buckwheatflour, chocolate, peaflour, herbs",non-vegetarian,,peanut
+demo_shyam27,demo_shyam27,24,81.6,155.6,F,moderateactive,"celery, chili, mint",non-vegetarian,,peanut
+demo_ranjan28,demo_ranjan28,28,61.2,161.5,F,moderateactive,"kodo, bhaji, herbs, fish",non-vegetarian,,
+demo_sita29,demo_sita29,24,58.4,162.6,M,sedentary,"chapati, chillipeppers, peas",vegetarian,,peanut
+demo_pradip30,demo_pradip30,33,67.5,163.1,M,lightlyactive,"beaten, lentil, dhedo, sel, veg",vegetarian,,crab
+demo_pradip31,demo_pradip31,19,81.1,168.2,M,lightlyactive,"gundruk, tandoori, wheatnoodles",non-vegetarian,diabetes,peanut
+demo_laxmi32,demo_laxmi32,50,85.8,180.7,M,sedentary,"tomato, sweet, brownie",non-vegetarian,,
+demo_dinesh33,demo_dinesh33,44,91.7,176.5,M,lightlyactive,"wholewheatflour, spicy, bara, naan",vegetarian,,
+demo_muna34,demo_muna34,39,77.1,170.8,M,moderateactive,"peaflour, yeast, ricenoodles, maize",vegetarian,,tofu
+demo_shyam35,demo_shyam35,28,53.3,154.2,F,moderateactive,"cardamom, mayonnaise, dhedo",vegetarian,,peanut
+demo_gopal36,demo_gopal36,25,62.9,156.6,F,lightlyactive,"carrots, suji, cardamom",non-vegetarian,,egg
+demo_durga37,demo_durga37,32,90.1,171.8,M,lightlyactive,"yogurt, herbs, paneer, mutton, mint",vegetarian,,
+demo_gopal38,demo_gopal38,50,82.3,179.7,M,veryactive,"onions, breakfast, chilipowder, chickpeas, dal",vegetarian,,tofu
+demo_aadarsh39,demo_aadarsh39,56,71.5,182.3,M,lightlyactive,"blackgram, celery, pakoda",non-vegetarian,,
+demo_sajan40,demo_sajan40,54,54.3,158.1,F,lightlyactive,"momo, vegetables, beef, cheese, riceflour, ricenoodles",non-vegetarian,,peanut

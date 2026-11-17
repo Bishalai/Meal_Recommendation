@@ -1,0 +1,54 @@
+{% extends "core/base.html" %}
+
+{% block title %}Sign in - MealMate{% endblock %}
+
+{% block content %}
+<section class="auth-layout">
+  <form class="card auth-card" id="signin-form" novalidate>
+    <h1>Welcome back</h1>
+    <p class="muted">Sign in to get your meal recommendation for today.</p>
+
+    <label for="username">Username</label>
+    <input id="username" name="username" type="text" autocomplete="username" required>
+
+    <label for="password">Password</label>
+    <input id="password" name="password" type="password" autocomplete="current-password" required>
+
+    <p class="form-error" id="signin-error" hidden></p>
+
+    <button class="btn btn-block" type="submit">Sign in</button>
+
+    <p class="muted">New here?
+      <a href="{% url 'signup-page' %}">Create an account</a>
+    </p>
+  </form>
+</section>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  document.getElementById('signin-form').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const errorBox = document.getElementById('signin-error');
+    errorBox.hidden = true;
+
+    const result = await MealMate.api('/api/signin', {
+      method: 'POST',
+      body: {
+        username: document.getElementById('username').value.trim(),
+        password: document.getElementById('password').value,
+      },
+      auth: false,
+    });
+
+    if (result.error) {
+      errorBox.textContent = result.error;
+      errorBox.hidden = false;
+      return;
+    }
+
+    MealMate.saveSession(result);
+    window.location.href = '{% url 'dashboard' %}';
+  });
+</script>
+{% endblock %}

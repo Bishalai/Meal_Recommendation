@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}MealMate - meal recommendations{% endblock %}</title>
+  <link rel="stylesheet" href="{% static 'core/css/style.css' %}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="{% url 'index' %}">🍲 MealMate</a>
+    <nav class="nav" id="main-nav">
+      <a href="{% url 'index' %}">Home</a>
+      <a href="{% url 'dashboard' %}" data-auth="in">Dashboard</a>
+      <a href="{% url 'signin-page' %}" data-auth="out">Sign in</a>
+      <a href="{% url 'signup-page' %}" data-auth="out" class="btn btn-small">Sign up</a>
+      <span class="nav-user" data-auth="in">
+        <span id="nav-username"></span>
+        <button class="btn btn-small btn-ghost" id="signout-btn">Sign out</button>
+      </span>
+    </nav>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <p>MealMate &mdash; personalised meal recommendations, tuned to your diet,
+       allergies and daily macro targets.</p>
+  </footer>
+
+  <script src="{% static 'core/js/app.js' %}"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,440 @@
+username,date,time,food,rating
+bishal,21/02/2022,lunch,samosa,4
+bishal,22/02/2022,breakfast,dal bhat,5
+aadarsh,21/02/2022,dinner,noodle soup,2
+kaushal,22/02/2022,lunch,buff momo,3
+aadarsh,21/02/2022,breakfast,bara,4
+kaushal,22/02/2022,dinner,chapati,4
+bishal,23/02/2023,breakfast,aloo tama,3
+bishal,15/02/2022,dinner,noodle soup,4
+bishal,16/02/2022,lunch,samosa,2
+bishal,17/02/2022,lunch,bara,3
+bishal,18/02/2022,dinner,noodle soup,3
+bishal,19/02/2022,breakfast,bara,3
+bishal,24/02/2023,breakfast,soyabeans curry,3
+shantanu,06/03/2023,breakfast,thukpa,3
+shantanu,07/03/2023,breakfast,brinjal curry,3
+aadarsh,07/03/2023,breakfast,thukpa,4
+bishal,07/03/2023,lunch,gundruk,4
+aadarsh,07/03/2023,lunch,dhedo,4
+bishal,07/03/2023,dinner,aato bhat(maize rice),4
+bishal,08/03/2023,dinner,kodo(millet) ko roti,4
+aadarsh,08/03/2023,lunch,samosa,5
+kaushal,08/03/2023,lunch,chiura(beaten rice),5
+mike,08/03/2023,lunch,aloo tama,3
+mike,08/03/2023,dinner,aato bhat(maize rice),5
+daren,09/03/2023,lunch,aloo tama,3
+mike,09/03/2023,lunch,thukpa,5
+mike,10/03/2023,lunch,kheer,5
+daren,10/03/2023,breakfast,thukpa,3
+demo_sarmila01,15/10/2026,lunch,chicken pizaa,4
+demo_sarmila01,01/08/2026,lunch,carrot cake,5
+demo_sarmila01,22/08/2025,lunch,brownie,4
+demo_sarmila01,05/07/2026,breakfast,veg pulao,4
+demo_sarmila01,01/11/2025,lunch,samosa,4
+demo_sarmila01,15/08/2025,dinner,aato bhat(maize rice),4
+demo_sangita02,14/08/2025,lunch,thukpa,4
+demo_sangita02,14/07/2026,breakfast,cauliflower curry,3
+demo_sangita02,28/05/2026,breakfast,aloo tama,3
+demo_sangita02,20/01/2026,breakfast,palak paneer,2
+demo_sangita02,12/10/2026,dinner,khichdi,2
+demo_sangita02,23/07/2026,breakfast,veg pulao,2
+demo_sangita02,03/09/2025,lunch,pumpkin curry,2
+demo_sangita02,27/02/2026,lunch,veg momo,3
+demo_sangita02,10/12/2025,lunch,chicken pulao,3
+demo_sangita02,14/02/2026,lunch,choila,4
+demo_sangita02,16/07/2026,lunch,goat meat curry,4
+demo_sangita02,12/08/2026,breakfast,carrot cake,2
+demo_puspa03,16/11/2025,lunch,brownie,4
+demo_puspa03,05/07/2026,lunch,yomari,4
+demo_puspa03,09/12/2025,lunch,kheer,5
+demo_puspa03,09/06/2026,breakfast,suji ko halwa,3
+demo_puspa03,28/03/2026,dinner,kodo(millet) ko roti,2
+demo_puspa03,11/10/2026,lunch,choila,3
+demo_puspa03,11/09/2026,lunch,chicken pizaa,2
+demo_puspa03,24/08/2025,breakfast,pumpkin curry,3
+demo_puspa03,25/06/2026,breakfast,chatamari,4
+demo_aadarsh04,01/08/2025,lunch,veg burger,4
+demo_aadarsh04,06/07/2025,breakfast,carrot cake,5
+demo_aadarsh04,05/11/2026,lunch,veg momo,4
+demo_aadarsh04,13/10/2025,lunch,veg pulao,4
+demo_aadarsh04,04/07/2026,breakfast,thukpa,3
+demo_aadarsh04,06/05/2026,lunch,veg spring rolls,5
+demo_aadarsh04,27/07/2026,breakfast,brownie,4
+demo_aadarsh04,22/05/2026,lunch,palak paneer,3
+demo_aadarsh04,26/07/2026,breakfast,cauliflower curry,3
+demo_aadarsh04,27/04/2026,lunch,veg biryani,3
+demo_aadarsh04,01/09/2025,breakfast,dhedo,3
+demo_aadarsh04,22/05/2026,dinner,chapati,4
+demo_aadarsh04,05/12/2025,dinner,roti,3
+demo_aadarsh04,25/07/2025,breakfast,naan,2
+demo_sujata05,25/06/2026,lunch,veg burger,3
+demo_sujata05,24/09/2025,breakfast,kodo(millet) ko roti,4
+demo_sujata05,25/07/2026,breakfast,paneer curry,4
+demo_sujata05,05/11/2026,breakfast,bhaji,4
+demo_sujata05,19/03/2026,dinner,kwati(bean soup),3
+demo_sujata05,29/03/2026,lunch,veg chowmein,3
+demo_sujata05,15/11/2025,dinner,chapati,4
+demo_mangala06,02/05/2026,lunch,choila,5
+demo_mangala06,12/11/2025,lunch,chicken momo,5
+demo_mangala06,04/08/2025,lunch,veg momo,3
+demo_mangala06,10/08/2025,lunch,paneer curry,3
+demo_mangala06,06/10/2026,lunch,buff momo,4
+demo_mangala06,31/08/2025,lunch,saag,4
+demo_mangala06,23/10/2026,lunch,palak paneer,5
+demo_mangala06,03/06/2026,breakfast,aloo tama,4
+demo_mangala06,03/06/2026,lunch,pumpkin curry,4
+demo_pradip07,23/08/2025,lunch,fish curry,4
+demo_pradip07,29/10/2025,lunch,chicken biryani,5
+demo_pradip07,29/05/2026,lunch,buff momo,5
+demo_pradip07,08/09/2025,lunch,veg biryani,4
+demo_pradip07,13/03/2026,breakfast,kheer,3
+demo_pradip07,05/10/2025,lunch,chiura(beaten rice),3
+demo_pradip07,27/06/2026,lunch,chicken burger,2
+demo_pradip07,26/02/2026,lunch,butter chicken,2
+demo_pradip07,17/07/2026,dinner,mutton curry,4
+demo_mangala08,03/09/2025,dinner,kwati(bean soup),5
+demo_mangala08,14/06/2026,lunch,veg spring rolls,3
+demo_mangala08,20/07/2025,lunch,chicken momo,4
+demo_mangala08,05/07/2026,lunch,veg momo,4
+demo_mangala08,18/07/2026,lunch,buff momo,3
+demo_mangala08,29/08/2026,breakfast,saag,5
+demo_mangala08,01/04/2026,dinner,dal bhat,4
+demo_mangala08,21/06/2026,lunch,chicken burger,3
+demo_mangala08,23/06/2026,lunch,onion pakoda,4
+demo_mangala08,12/10/2026,dinner,dhedo,3
+demo_mangala08,01/08/2025,lunch,goat meat curry,3
+demo_mangala08,14/04/2026,breakfast,mutton curry,3
+demo_mangala08,21/12/2025,lunch,veg chowmein,3
+demo_sunita09,11/06/2026,dinner,chicken pulao,4
+demo_sunita09,08/02/2026,lunch,veg pulao,4
+demo_sunita09,25/07/2026,breakfast,chicken biryani,5
+demo_sunita09,21/07/2025,breakfast,cauliflower curry,4
+demo_sunita09,07/03/2026,dinner,aloo tama,3
+demo_sunita09,02/03/2026,dinner,butter chicken,4
+demo_gopal10,31/10/2025,lunch,chicken burger,5
+demo_gopal10,05/07/2025,lunch,butter chicken,3
+demo_gopal10,04/04/2026,lunch,choila,4
+demo_gopal10,12/08/2025,lunch,chicken pizaa,3
+demo_gopal10,04/06/2026,breakfast,chicken pulao,4
+demo_gopal10,18/05/2026,lunch,buff momo,5
+demo_gopal10,04/09/2026,breakfast,chicken biryani,5
+demo_gopal10,01/02/2026,lunch,chicken momo,4
+demo_gopal10,20/08/2026,breakfast,tandoori chicken,5
+demo_gopal10,04/01/2026,lunch,chicken chowmein,5
+demo_gopal10,07/08/2025,dinner,khichdi,4
+demo_gopal10,22/07/2026,lunch,chicken curry,4
+demo_gopal10,27/03/2026,lunch,gundruk,2
+demo_gopal10,14/08/2025,lunch,kodo(millet) ko roti,3
+demo_aadarsh11,09/10/2025,lunch,dal bhat,3
+demo_aadarsh11,05/07/2026,lunch,veg momo,5
+demo_aadarsh11,13/05/2026,dinner,naan,4
+demo_aadarsh11,22/01/2026,lunch,cheese pizza,4
+demo_aadarsh11,23/09/2026,lunch,chicken momo,5
+demo_aadarsh11,05/11/2026,dinner,khichdi,4
+demo_aadarsh11,06/08/2025,lunch,buff momo,3
+demo_aadarsh11,27/12/2025,lunch,palak paneer,4
+demo_aadarsh11,20/12/2025,lunch,paneer curry,3
+demo_aadarsh11,07/09/2026,breakfast,goat meat curry,3
+demo_aadarsh11,15/06/2026,lunch,veg burger,2
+demo_aadarsh11,29/09/2026,breakfast,veg biryani,3
+demo_dinesh12,17/10/2026,lunch,veg burger,5
+demo_dinesh12,13/04/2026,breakfast,kheer,5
+demo_dinesh12,18/11/2025,lunch,veg spring rolls,4
+demo_dinesh12,14/08/2025,breakfast,thukpa,5
+demo_dinesh12,10/01/2026,lunch,onion pakoda,4
+demo_dinesh12,14/09/2026,lunch,suji ko halwa,5
+demo_dinesh12,06/05/2026,dinner,kwati(bean soup),4
+demo_dinesh12,30/03/2026,lunch,veg chowmein,3
+demo_dinesh12,07/10/2025,breakfast,sel roti,4
+demo_dinesh12,11/04/2026,lunch,paratha,4
+demo_dinesh12,20/04/2026,lunch,kodo(millet) ko roti,5
+demo_dinesh12,27/04/2026,lunch,pumpkin curry,3
+demo_dinesh12,10/06/2026,lunch,paneer curry,4
+demo_sujata13,14/03/2026,lunch,chicken burger,5
+demo_sujata13,01/07/2026,lunch,buff momo,3
+demo_sujata13,25/05/2026,lunch,chicken momo,3
+demo_sujata13,25/06/2026,lunch,veg spring rolls,4
+demo_sujata13,25/10/2026,breakfast,kwati(bean soup),4
+demo_sujata13,15/01/2026,lunch,onion pakoda,2
+demo_prakash14,05/04/2026,lunch,samosa,5
+demo_prakash14,19/01/2026,breakfast,veg pulao,4
+demo_prakash14,03/03/2026,breakfast,saag,4
+demo_prakash14,26/03/2026,lunch,chicken chowmein,3
+demo_prakash14,19/10/2026,lunch,veg chowmein,4
+demo_prakash14,09/10/2026,dinner,palak paneer,3
+demo_prakash14,07/01/2026,dinner,chana tarkari,5
+demo_prakash14,26/03/2026,dinner,chicken pulao,3
+demo_prakash14,01/04/2026,breakfast,kheer,4
+demo_prakash14,12/01/2026,lunch,buff momo,3
+demo_prakash14,15/07/2025,lunch,veg burger,4
+demo_prakash14,26/09/2026,lunch,veg spring rolls,2
+demo_prakash14,04/03/2026,dinner,aato bhat(maize rice),3
+demo_prakash14,28/10/2026,breakfast,gundruk,4
+demo_ranjan15,12/06/2026,lunch,roti,4
+demo_ranjan15,13/05/2026,lunch,suji ko halwa,5
+demo_ranjan15,20/10/2025,lunch,khichdi,5
+demo_ranjan15,05/03/2026,lunch,yomari,4
+demo_ranjan15,25/09/2025,breakfast,kheer,4
+demo_ranjan15,28/08/2025,lunch,goat meat curry,3
+demo_ranjan15,24/12/2025,lunch,chatamari,4
+demo_ranjan15,07/02/2026,breakfast,chapati,2
+demo_ranjan15,25/06/2026,lunch,chicken chowmein,3
+demo_ranjan15,01/07/2026,lunch,paratha,3
+demo_puspa16,31/05/2026,lunch,onion pakoda,3
+demo_puspa16,21/05/2026,lunch,suji ko halwa,4
+demo_puspa16,18/09/2025,dinner,chatamari,4
+demo_puspa16,26/11/2025,lunch,yomari,3
+demo_puspa16,28/09/2025,breakfast,veg biryani,2
+demo_puspa16,16/11/2025,lunch,aato bhat(maize rice),2
+demo_puspa16,20/06/2026,lunch,choila,2
+demo_puspa16,08/10/2025,breakfast,chicken pulao,2
+demo_puspa16,09/06/2026,lunch,roti,4
+demo_aadarsh17,12/01/2026,lunch,veg momo,5
+demo_aadarsh17,20/07/2025,lunch,veg burger,4
+demo_aadarsh17,04/04/2026,breakfast,chapati,4
+demo_aadarsh17,19/02/2026,lunch,bara,5
+demo_aadarsh17,10/06/2026,dinner,roti,3
+demo_aadarsh17,13/07/2026,breakfast,cauliflower curry,2
+demo_aadarsh17,06/11/2025,breakfast,pumpkin curry,4
+demo_aadarsh17,25/02/2026,lunch,aloo tama,2
+demo_aadarsh17,06/07/2026,lunch,veg biryani,4
+demo_aadarsh17,31/07/2026,dinner,soyabeans curry,3
+demo_aadarsh17,27/11/2025,lunch,khichdi,3
+demo_aadarsh17,16/09/2026,breakfast,dal bhat,2
+demo_ranjan18,12/07/2026,breakfast,kodo(millet) ko roti,5
+demo_ranjan18,14/09/2026,dinner,noodle soup,3
+demo_ranjan18,05/03/2026,lunch,onion pakoda,4
+demo_ranjan18,22/08/2026,dinner,palak paneer,4
+demo_ranjan18,12/09/2025,dinner,gundruk,3
+demo_ranjan18,21/09/2025,breakfast,kwati(bean soup),3
+demo_ranjan18,25/10/2026,dinner,paneer curry,3
+demo_ranjan18,19/12/2025,breakfast,veg pulao,5
+demo_gopal19,18/09/2026,breakfast,chatamari,3
+demo_gopal19,30/04/2026,lunch,onion pakoda,4
+demo_gopal19,05/02/2026,lunch,yomari,4
+demo_gopal19,08/08/2026,dinner,paratha,5
+demo_gopal19,06/03/2026,breakfast,suji ko halwa,3
+demo_gopal19,29/10/2026,breakfast,sel roti,4
+demo_gopal19,02/10/2025,lunch,roti,5
+demo_gopal19,02/09/2026,lunch,veg burger,4
+demo_gopal19,29/07/2025,dinner,naan,4
+demo_gopal19,26/08/2026,lunch,cheese pizza,4
+demo_gopal19,18/01/2026,lunch,brownie,4
+demo_gopal19,20/11/2025,dinner,paneer curry,3
+demo_gopal19,19/03/2026,breakfast,veg pulao,3
+demo_nisha20,27/10/2026,lunch,gundruk,4
+demo_nisha20,24/05/2026,dinner,noodle soup,4
+demo_nisha20,31/10/2025,lunch,soyabeans curry,4
+demo_nisha20,06/08/2026,lunch,veg burger,4
+demo_nisha20,08/09/2026,breakfast,khichdi,4
+demo_nisha20,16/07/2026,breakfast,kwati(bean soup),4
+demo_nisha20,26/12/2025,lunch,chicken burger,3
+demo_nisha20,27/09/2026,lunch,chicken momo,3
+demo_nisha20,15/11/2025,lunch,bhaji,2
+demo_dipak21,05/03/2026,dinner,dal bhat,5
+demo_dipak21,29/11/2025,breakfast,dhedo,4
+demo_dipak21,13/05/2026,breakfast,kheer,4
+demo_dipak21,15/07/2025,breakfast,veg pulao,5
+demo_dipak21,31/08/2026,lunch,cauliflower curry,3
+demo_dipak21,19/04/2026,lunch,veg chowmein,3
+demo_rinki22,24/05/2026,breakfast,suji ko halwa,4
+demo_rinki22,13/08/2026,breakfast,brownie,3
+demo_rinki22,29/09/2025,dinner,cauliflower curry,5
+demo_rinki22,07/01/2026,breakfast,mutton curry,3
+demo_rinki22,04/08/2026,breakfast,brinjal curry,2
+demo_rinki22,17/01/2026,breakfast,kwati(bean soup),4
+demo_rinki22,15/01/2026,lunch,veg momo,3
+demo_rinki22,03/11/2025,breakfast,soyabeans curry,4
+demo_ranjan23,26/11/2025,dinner,kodo(millet) ko roti,4
+demo_ranjan23,28/04/2026,lunch,chicken chowmein,4
+demo_ranjan23,16/10/2025,lunch,veg chowmein,5
+demo_ranjan23,24/03/2026,dinner,kwati(bean soup),4
+demo_ranjan23,13/06/2026,lunch,paratha,4
+demo_ranjan23,28/02/2026,lunch,chana tarkari,5
+demo_ranjan23,28/09/2026,dinner,dal bhat,4
+demo_ranjan23,24/10/2025,lunch,bhaji,3
+demo_ranjan23,12/05/2026,lunch,veg pulao,4
+demo_ranjan23,25/10/2026,lunch,chicken burger,3
+demo_ranjan23,09/11/2026,lunch,onion pakoda,4
+demo_sabina24,04/01/2026,dinner,saag,5
+demo_sabina24,26/09/2025,lunch,kheer,4
+demo_sabina24,06/10/2025,lunch,palak paneer,3
+demo_sabina24,10/05/2026,lunch,suji ko halwa,5
+demo_sabina24,01/02/2026,breakfast,gundruk,4
+demo_sabina24,17/06/2026,lunch,veg burger,3
+demo_sabina24,01/10/2026,lunch,kodo(millet) ko roti,4
+demo_sabina24,08/05/2026,dinner,dhedo,4
+demo_sabina24,20/10/2026,dinner,bhaji,2
+demo_sabina24,23/11/2025,breakfast,kwati(bean soup),2
+demo_sabina24,07/03/2026,lunch,carrot cake,3
+demo_sabina24,01/02/2026,lunch,cheese pizza,2
+demo_sabina24,23/07/2026,breakfast,aloo tama,4
+demo_pradip25,17/05/2026,breakfast,bara,3
+demo_pradip25,15/11/2026,lunch,cauliflower curry,4
+demo_pradip25,17/05/2026,lunch,samosa,2
+demo_pradip25,11/09/2026,lunch,veg momo,3
+demo_pradip25,11/04/2026,lunch,roti,4
+demo_pradip25,26/09/2026,breakfast,carrot cake,2
+demo_pradip25,20/05/2026,dinner,saag,2
+demo_pradip25,16/01/2026,dinner,chana tarkari,3
+demo_pradip25,01/09/2025,lunch,sel roti,2
+demo_pradip25,21/06/2026,lunch,dhedo,4
+demo_pradip25,15/10/2025,breakfast,kodo(millet) ko roti,3
+demo_pradip25,29/01/2026,dinner,paratha,3
+demo_dinesh26,12/02/2026,breakfast,brownie,4
+demo_dinesh26,23/11/2025,dinner,bhaji,3
+demo_dinesh26,23/09/2026,breakfast,dhedo,4
+demo_dinesh26,24/08/2026,lunch,cheese pizza,5
+demo_dinesh26,10/07/2025,lunch,chicken pizaa,5
+demo_dinesh26,24/09/2026,breakfast,saag,2
+demo_dinesh26,08/07/2026,breakfast,bara,3
+demo_dinesh26,03/04/2026,lunch,pumpkin curry,4
+demo_dinesh26,25/03/2026,lunch,veg burger,3
+demo_shyam27,01/03/2026,lunch,pumpkin curry,5
+demo_shyam27,16/01/2026,breakfast,goat meat curry,5
+demo_shyam27,15/04/2026,breakfast,chicken biryani,5
+demo_shyam27,27/12/2025,dinner,fish curry,4
+demo_shyam27,06/02/2026,breakfast,chana tarkari,5
+demo_shyam27,23/06/2026,breakfast,veg biryani,4
+demo_shyam27,09/06/2026,lunch,choila,3
+demo_shyam27,31/08/2025,lunch,tandoori chicken,3
+demo_shyam27,14/03/2026,breakfast,kwati(bean soup),4
+demo_shyam27,26/09/2025,lunch,saag,4
+demo_shyam27,22/04/2026,lunch,choila,4
+demo_ranjan28,26/01/2026,lunch,cheese pizza,5
+demo_ranjan28,09/05/2026,lunch,kodo(millet) ko roti,3
+demo_ranjan28,28/12/2025,breakfast,fish curry,5
+demo_ranjan28,27/02/2026,lunch,chicken pizaa,4
+demo_ranjan28,30/03/2026,lunch,bhaji,4
+demo_ranjan28,24/01/2026,breakfast,sel roti,2
+demo_ranjan28,08/11/2025,lunch,goat meat curry,3
+demo_ranjan28,08/09/2025,breakfast,palak paneer,4
+demo_ranjan28,29/07/2026,lunch,choila,3
+demo_ranjan28,09/03/2026,lunch,yomari,3
+demo_ranjan28,19/09/2025,lunch,chicken pulao,3
+demo_ranjan28,10/02/2026,dinner,brinjal curry,3
+demo_ranjan28,01/02/2026,lunch,carrot cake,3
+demo_sita29,22/05/2026,dinner,veg pulao,4
+demo_sita29,31/12/2025,dinner,aloo tama,4
+demo_sita29,04/08/2025,lunch,chapati,5
+demo_sita29,03/09/2025,breakfast,veg biryani,3
+demo_sita29,15/08/2025,breakfast,cauliflower curry,4
+demo_sita29,28/10/2025,lunch,samosa,4
+demo_sita29,22/05/2026,lunch,bhaji,3
+demo_sita29,08/10/2025,lunch,noodle soup,3
+demo_pradip30,25/11/2025,lunch,veg burger,4
+demo_pradip30,19/10/2026,breakfast,khichdi,3
+demo_pradip30,01/08/2025,lunch,sel roti,3
+demo_pradip30,30/03/2026,lunch,veg spring rolls,4
+demo_pradip30,11/12/2025,lunch,veg chowmein,3
+demo_pradip30,11/11/2026,dinner,veg pulao,4
+demo_pradip30,23/11/2025,lunch,veg momo,4
+demo_pradip30,08/03/2026,lunch,paratha,3
+demo_pradip30,24/08/2026,lunch,kheer,3
+demo_pradip31,25/10/2025,lunch,thukpa,4
+demo_pradip31,25/09/2026,breakfast,gundruk,4
+demo_pradip31,17/04/2026,lunch,tandoori chicken,3
+demo_pradip31,08/07/2025,breakfast,cauliflower curry,3
+demo_pradip31,01/10/2026,breakfast,kheer,3
+demo_pradip31,15/08/2025,dinner,naan,4
+demo_pradip31,24/11/2025,lunch,kodo(millet) ko roti,4
+demo_pradip31,07/07/2025,dinner,khichdi,2
+demo_laxmi32,11/08/2025,lunch,cheese pizza,3
+demo_laxmi32,27/10/2026,lunch,brownie,3
+demo_laxmi32,23/08/2026,lunch,chicken pizaa,5
+demo_laxmi32,08/03/2026,lunch,chicken momo,5
+demo_laxmi32,03/12/2025,lunch,veg spring rolls,3
+demo_laxmi32,20/05/2026,breakfast,soyabeans curry,3
+demo_laxmi32,30/06/2026,lunch,brinjal curry,4
+demo_laxmi32,22/08/2025,lunch,buff momo,2
+demo_laxmi32,07/01/2026,lunch,yomari,3
+demo_laxmi32,07/03/2026,lunch,chatamari,4
+demo_laxmi32,17/10/2026,breakfast,dal bhat,3
+demo_dinesh33,12/06/2026,breakfast,roti,5
+demo_dinesh33,29/10/2026,breakfast,bara,3
+demo_dinesh33,21/07/2026,dinner,naan,4
+demo_dinesh33,07/11/2026,lunch,sel roti,2
+demo_dinesh33,01/06/2026,dinner,soyabeans curry,3
+demo_dinesh33,01/10/2025,breakfast,carrot cake,3
+demo_dinesh33,15/11/2025,breakfast,khichdi,3
+demo_dinesh33,18/10/2026,lunch,yomari,3
+demo_dinesh33,21/01/2026,dinner,gundruk,3
+demo_dinesh33,17/10/2025,breakfast,veg pulao,3
+demo_dinesh33,14/07/2025,breakfast,aato bhat(maize rice),3
+demo_muna34,10/03/2026,lunch,naan,4
+demo_muna34,11/02/2026,lunch,thukpa,3
+demo_muna34,19/09/2025,lunch,aato bhat(maize rice),4
+demo_muna34,26/08/2026,lunch,bhaji,3
+demo_muna34,04/10/2025,breakfast,kwati(bean soup),3
+demo_muna34,07/11/2026,lunch,brownie,3
+demo_muna34,18/07/2025,lunch,cheese pizza,2
+demo_muna34,26/05/2026,breakfast,chiura(beaten rice),4
+demo_muna34,27/08/2026,dinner,kodo(millet) ko roti,2
+demo_muna34,10/02/2026,breakfast,pumpkin curry,3
+demo_muna34,17/01/2026,dinner,roti,4
+demo_shyam35,13/09/2025,lunch,dhedo,5
+demo_shyam35,11/07/2025,lunch,veg burger,4
+demo_shyam35,19/03/2026,lunch,suji ko halwa,3
+demo_shyam35,29/04/2026,breakfast,kheer,4
+demo_shyam35,17/09/2026,lunch,carrot cake,3
+demo_shyam35,20/07/2025,breakfast,aloo tama,3
+demo_shyam35,30/09/2025,breakfast,bara,3
+demo_shyam35,27/10/2026,lunch,chapati,2
+demo_shyam35,03/12/2025,lunch,pumpkin curry,3
+demo_shyam35,22/09/2025,lunch,yomari,3
+demo_shyam35,07/06/2026,dinner,naan,2
+demo_shyam35,04/10/2026,lunch,cauliflower curry,4
+demo_shyam35,08/02/2026,lunch,dal bhat,3
+demo_shyam35,24/02/2026,lunch,brownie,2
+demo_gopal36,02/11/2026,breakfast,suji ko halwa,5
+demo_gopal36,12/03/2026,dinner,cauliflower curry,5
+demo_gopal36,19/08/2026,lunch,carrot cake,4
+demo_gopal36,25/05/2026,breakfast,kwati(bean soup),4
+demo_gopal36,30/10/2025,lunch,veg spring rolls,4
+demo_gopal36,03/11/2026,lunch,kheer,3
+demo_gopal36,26/08/2026,dinner,chicken curry,3
+demo_gopal36,05/09/2025,breakfast,saag,3
+demo_gopal36,06/12/2025,breakfast,kodo(millet) ko roti,3
+demo_gopal36,19/12/2025,lunch,fish curry,2
+demo_gopal36,01/09/2025,dinner,soyabeans curry,2
+demo_gopal36,20/03/2026,breakfast,chicken pulao,3
+demo_durga37,03/03/2026,lunch,veg momo,4
+demo_durga37,13/09/2025,dinner,palak paneer,4
+demo_durga37,20/06/2026,lunch,cheese pizza,5
+demo_durga37,13/09/2026,dinner,paneer curry,4
+demo_durga37,11/11/2025,dinner,veg biryani,4
+demo_durga37,21/07/2025,dinner,veg pulao,4
+demo_durga37,17/12/2025,breakfast,dal bhat,3
+demo_durga37,20/05/2026,breakfast,pumpkin curry,3
+demo_durga37,16/04/2026,lunch,veg chowmein,3
+demo_durga37,07/07/2026,lunch,veg burger,4
+demo_durga37,08/09/2025,breakfast,kodo(millet) ko roti,4
+demo_durga37,21/10/2026,dinner,chana tarkari,2
+demo_gopal38,20/08/2025,dinner,kwati(bean soup),5
+demo_gopal38,26/05/2026,lunch,chana tarkari,5
+demo_gopal38,29/10/2025,breakfast,brinjal curry,4
+demo_gopal38,20/07/2025,lunch,dal bhat,3
+demo_gopal38,24/07/2026,breakfast,khichdi,4
+demo_gopal38,01/08/2026,lunch,onion pakoda,4
+demo_gopal38,15/09/2026,lunch,brownie,2
+demo_gopal38,09/05/2026,dinner,bhaji,3
+demo_aadarsh39,25/08/2025,breakfast,bara,4
+demo_aadarsh39,26/09/2025,lunch,onion pakoda,4
+demo_aadarsh39,20/09/2026,lunch,kwati(bean soup),5
+demo_aadarsh39,13/07/2025,lunch,veg biryani,3
+demo_aadarsh39,16/09/2025,lunch,veg burger,4
+demo_aadarsh39,04/10/2025,lunch,saag,3
+demo_aadarsh39,21/09/2026,lunch,chicken pizaa,2
+demo_aadarsh39,23/07/2025,lunch,veg spring rolls,2
+demo_sajan40,01/06/2026,lunch,chicken pizaa,5
+demo_sajan40,16/11/2025,lunch,thukpa,4
+demo_sajan40,29/09/2026,dinner,chatamari,5
+demo_sajan40,16/11/2026,lunch,cheese pizza,5
+demo_sajan40,19/09/2025,lunch,yomari,4
+demo_sajan40,23/11/2025,lunch,buff momo,3
+demo_sajan40,15/08/2025,lunch,veg burger,5
+demo_sajan40,07/09/2026,dinner,noodle soup,3
+demo_sajan40,10/07/2026,lunch,veg momo,4
+demo_sajan40,17/09/2026,lunch,roti,3
+demo_sajan40,28/03/2026,breakfast,bara,3
