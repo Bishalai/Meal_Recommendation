@@ -7,7 +7,6 @@ suggests a dish (plus a matching side) together with your daily macro targets.
 ```
 meal recommend/
 ├── recommendation_meal/          # this repository
-│   ├── app/recommendation.py     # original standalone prototype (console)
 │   ├── datasets/custom/          # datasets used by the prototype
 │   └── backend/                  # Django backend + web interface  ← run this
 │       ├── config/               # settings, urls, wsgi/asgi
@@ -163,7 +162,6 @@ Blending: `0.6 x content + 0.4 x collaborative` when both exist, otherwise the
 single available signal, otherwise the cold-start fallback. The chosen signal
 is returned in the response as `recommendation method` and shown in the
 dashboard, so the user always knows *why* a dish was picked.
-
 
 After ranking, the hard filters are applied:
 
